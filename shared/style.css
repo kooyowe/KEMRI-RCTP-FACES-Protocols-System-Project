@@ -1,0 +1,139 @@
+
+ body,html{margin:0;padding:0;-webkit-user-select:none}
+ body{-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;background:#;color:#333;font:normal normal normal 13px/1.5 "Helvetica Neue",Arial,Helvetica,"Liberation Sans",FreeSans,sans-serif}
+ 
+ .login-body{max-width:300px;margin:0 auto;font-family:HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif}
+ .page-body{max-width:100%;margin:0 auto;font-family:HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif}
+ .page-table{background:white}
+ 
+ .pagehead{background-color:black;height:44px;width:100%;position:relative;color:#fff;display:-webkit-box;display:-moz-box;display:-ms-flexbox;-webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;margin-bottom:10px}
+ .pagehead .title{color:#fff;font-size:18px;font-weight:bold;text-decoration:none}
+ .pagehead .logo{width:117px;padding:0 15px}
+ 
+ .left-nav{background:url(../images/left_nav_bg.png) repeat-y right 0% #f3f3f3;}
+ 
+ .banner-table{background-color:black;height:44px;width:100%;position:relative;color:#fff}
+ .height-44{height:44px}
+ 
+ .banner-title{color:;font-size:16}
+ .horizontal-bar{background:red;width:100%}
+ 
+ .table-collapse{border-collapse:collapse}
+ .bottom-border{border-bottom:1px solid #E1CC76;vertical-align:center}
+ 
+ .hexa-fill{background:#E1CC76}
+ .red-fill{background:red}
+ .cyan-fill{background:cyan}
+ .pink-fill{background:pink}
+ .grey-fill{background:#444;}
+ .orange-fill{background:orange}
+ .image-fill{background:url(../images/left_nav_bg.png) repeat-y right 0% #f3f3f3;}
+ 
+ .active{background:white}
+ .selected{background:}
+ .due{background:#05FCBA;}
+ .pending{background:orange;color:white}
+ .expired{background:red;color:white}
+ 
+ .blank-td{border: 1px solid cyan}
+
+ .font-8{font-size:8px}
+ .font-9{font-size:9px}
+ .font-10{font-size:10px}
+ .font-11{font-size:11px}
+ .font-12{font-size:12px}
+ .font-14{font-size:14px}
+ .font-15{font-size:15px}
+ .font-18{font-size:18px}
+ 
+ .navigation{background:#05FCBA;border:1px solid pink;font-size:12px;}
+ 
+ .error-text{color:red}
+ .message-text{color:orange;font-size:12px}
+ 
+ .link-no-deco{text-decoration:none}
+ .text-underline{text-decoration:underline}
+ 
+ .index-field{border:1px solid pink;background:cyan;font-size:12px}
+ .select-field{border:1px solid pink;background:cyan;font-size:14px;text-align:center;font-weight:900;}
+ .record-field{border:1px solid cyan;font-size:12px;vertical-align:top;}
+ .field-head{border:1px solid cyan;font-size:12px;font-weight:900}
+ 
+ .protocol-link{display:block;text-decoration:none;color:black}
+ .pi-link{color:black;text-decoration:none;font-size:12px}
+ .pi-button-link{border:1px solid gray;background:pink;text-decoration:none;color:green;padding-left:10px;padding-right:10px}
+ .protocol-button-link{border:1px solid gray;background:pink;text-decoration:none;color:green;padding-left:10px;padding-right:10px;font-size:12px}
+ .pi-box{height:450px;vertical-align:top}
+ .report-menu{height:550px;vertical-align:top}
+ 
+ .protocol-box{height:150px;vertical-align:top}
+ .protocol-desc{border:1px solid pink;height:40px;width:100%;font-size:12px}
+ .protocol-desc-text{font-size:12px;color:black}
+ .protocol-key-box{vertical-align:top;font-size:11px}
+ .key-header{border:1px solid pink;width:20px;background:pink}
+ 
+ .key-item-active{border:1px solid pink;background:white}
+ .key-item-due{border:1px solid pink;background:#05FCBA}
+ .key-item-pending{border:1px solid pink;background:orange}
+ .key-item-expired{border:1px solid pink;background:red}
+ .key-item-selected{border:1px solid pink;background:grey}
+ .key-item-approved{border:1px solid pink;}
+ .key-item-desc{border:1px solid pink;}
+ 
+ .transaction-header{background:;color:orange;vertical-align:top}
+ .transaction-title{background:;color:green}
+ .transaction-box{height:170px;vertical-align:top}
+ 
+ .edit-protocol-box{height:158px;vertical-align:top}
+ .new-protocol-box{border:0px solid green;height:158px;vertical-align:top}
+ 
+ .text-input{width:100%;height:30px;border:1px solid pink}
+ .text-input-report{width:25%;height:30px;border:1px solid pink}
+ .title-input{width:25%;height:30px;border:1px solid pink}
+ .text-area{width:100%;height:200px;border:1px solid pink}
+ 
+ .approve-protocol-box{border:0px solid green;height:150px}
+ 
+ .form-hr{border:1px solid green}
+ .pink-rule{border:1px solid cyan}
+ 
+ .protocol-title-desc-box{border:1px solid pink;height:70px;vertical-align:top;font-size:12px}
+ 
+ .protocol-status{color:orange}
+ 
+ .input-hint{color:pink}
+ 
+ 
+ #username{padding-left:5px}
+ .field-ok{display:none}
+ .inputs{margin:0 10px 10px 10px;padding:0 0 1px 0;background-color:#fff;border-radius:6px;box-shadow:rgba(0,0,0,0.25) 0 1px 4px,rgba(0,0,0,0.04) 0 -1px 0;border-image:initial;font-size:14px;border: 2px groove (internal value)}
+ .inputs .login-field-hint{text-align:left;padding-left:10px}
+ .inputs .login-checkmark{background:transparent url("../images/checkmark.png") center center no-repeat;width:11px;visibility:hidden}
+ .inputs .login-container{display:-webkit-box;display:-moz-box;display:-ms-flexbox;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;padding:5px 10px;border-top:1px solid #e8e8e8;width:100%}
+ .inputs .login-container:first-child{border-top:0}
+ .inputs .login-container:first-child .icon-arrow{width:12px;height:7px;position:absolute;top:-7px;left:49%;background:transparent url("../images/top_arrow_light.png") center center no-repeat}
+ .inputs .login-container.error,.inputs .login-container.suggestions{margin:3px 10px 8px;background:#e8e8e8;border:1px solid #ddd;border-radius:6px;position:relative;text-align:center;display:block}
+ .inputs .login-container.error .divotborder,.inputs .login-container.suggestions .divotborder{border-color:transparent transparent #ddd;border-style:solid;border-width:5px;height:0;width:0;position:absolute;top:-11px;left:49%}
+ .inputs .login-container.error .divot,.inputs .login-container.suggestions .divot{border-color:transparent transparent #e8e8e8;border-style:solid;border-width:5px;height:0;width:0;position:absolute;top:-10px;left:49%}
+ .inputs .login-container.suggestions{background-color:#fff;background-image:-webkit-gradient(linear,0% 0,0% 100%,from(#fff),to(#dfdfdf));background-image:-moz-linear-gradient(top,#fff,#dfdfdf);background-image:-ms-linear-gradient(top,#fff,#dfdfdf)}
+ .inputs .login-container.suggestions .suggestion{font-weight:bold;text-shadow:#fff 0 1px 0;font-size:14px;max-width:46%;display:inline-block;overflow:hidden;text-overflow:ellipsis}
+ .inputs .login-container.suggestions .suggestion:nth-child(4){margin-left:10px;border-left:1px solid rgba(255,255,255,0.6);box-shadow:-1px 0 #d8d8d8;padding-left:10px}
+ .inputs .login-input{width:100%;padding:5px;border-radius:2px;-webkit-appearance:none;background:0;font-size:14px;font-family:HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;border:0}
+ 
+ .inputs .login-field{position:relative;-webkit-box-flex:1;-moz-box-flex:1;-ms-flex:1;line-height:30px}
+ .inputs .login-field .placeholder{color:darkGray;position:absolute;left:4px}
+ .inputs .login-field .placeholder.valid{color:#4d7ca2}
+ .inputs .login-field .placeholder.invalid{color:red} 
+
+ .login-button{text-align:center;margin:0 10px 20px 10px}
+ .login.button{width:100%;max-width:400px}
+ 
+
+ .button.login{background-color:#;border-color:none;border:1px solid;border-color:#cbbd55 #c9a239 #ca8a21;background-image:-webkit-gradient(linear,0% 0,0% 100%,from(orange),to(orange));background-image:-moz-linear-gradient(top,orange,orange);background-image:-ms-linear-gradient(top,orange,orange);}
+ 
+
+ .button,.button.disabled,.button.disabled:active{background-color:#ddd;background-image:-webkit-gradient(linear,0% 0,0% 100%,from(#fefefe),to(#dedede));background-image:-moz-linear-gradient(top,#fefefe,#dedede);background-image:-ms-linear-gradient(top,#fefefe,#dedede);border:1px solid;border-color:#c6c6c6 #b6b6b6 #acacac;border-radius:5px;color:#333;display:inline-block;font:normal normal 600 14px/15px HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;margin:0;overflow:hidden;text-overflow:ellipsis;padding:8px 9px 10px;text-shadow:#f0f0f0 0 1px;text-decoration:none;font-size:18px;padding:13px 10px 12px}
+ 
+ .footer{text-align:center;border-top:1px solid #d8d8d8;margin:0 10px;padding:10px 0}
+ .footer .footer-link{color:#777;text-decoration:none}
+ .footer .copyright{margin-top:10px;font-size:10px;color:#999}
